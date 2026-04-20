@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Small global polish */
+html,
+body,
+#root {
+  height: 100%;
+}
+
