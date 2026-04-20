@@ -22,6 +22,7 @@ export default function HomePage() {
       setLoading(false);
     }
   }
+  console.log("EDIT CONFIRMED WORKING");
 
   useEffect(() => {
     load();
