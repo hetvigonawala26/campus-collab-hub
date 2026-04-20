@@ -110,6 +110,7 @@ const rejectApplication = asyncHandler(async (req, res) => {
     .populate("owner", "name email");
 
   res.json({ application: populated });
+
 });
 
 module.exports = { applyToProject, acceptApplication, rejectApplication };
