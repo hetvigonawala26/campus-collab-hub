@@ -16,4 +16,3 @@ function buildAuthCookieOptions() {
 }
 
 module.exports = { buildAuthCookieOptions };
-
